@@ -1,0 +1,29 @@
+<view>
+  <scroll-view class="left" scroll-y="true">
+    <view>大家电</view>
+    <view>数码产品</view>
+    <view>食品</view>
+    <view>智能硬件</view>
+    <view>手机</view>
+  </scroll-view>
+
+  <scroll-view class="right" scroll-y="true">
+    <view class="typeTree">
+      <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1500" style="margin-left:6%;">
+        <block  wx:for="{{background}}">
+          <swiper-item>
+            <image style="width: 100%" src="{{item}}" />
+          </swiper-item>
+        </block>
+      </swiper>
+
+      <view class="brand">
+        <navigator url="../listdetail/listdetail">
+          <image src="" />
+          <text></text>
+        </navigator>
+      </view>
+
+    </view>
+  </scroll-view>
+</view>

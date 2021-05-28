@@ -1,0 +1,93 @@
+<view>
+  <view class="scan">
+    <button size="mini" plain bindtap="scanCode">
+      <image class="scanQR" src="/images/scan.jpg" />
+    </button>
+  </view>
+  <navigator url="../search/search">
+    <view class="search webkit_float">
+      <input placeholder="请输入感兴趣的产品" value="{{resCode}}" />
+      <button>
+        <image class="search_pic" src="/images/search.png" />
+      </button>
+    </view>
+  </navigator>
+
+  <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1500">
+    <block wx:for="{{background}}">
+      <swiper-item>
+        <image class="slide_image" src="{{item}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="tip">销量排行最高的手机</view>
+  <view class="line"></view>
+
+  <view class="box_mod">
+    <navigator class="position_relative" url="../product/detail">
+      <image class="photo" src="/images/12pm.jpg" />
+      <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
+      <view>
+        <view class="red">¥ 9699.00</view>
+        <view class="priceBlusBox">¥ 10099.00</view>
+      </view>
+
+      <view class="properties">
+        <view class="title">
+          <text>新品</text>
+        </view>
+        <view class="saleCount">总销量：10000</view>
+      </view>
+    </navigator>
+
+    <navigator class="position_relative" url="../product/detail">
+      <image class="photo" src="/images/12pm.jpg" />
+      <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
+      <view>
+        <view class="red">¥ 9699.00</view>
+        <view class="priceBlusBox">¥ 10099.00</view>
+      </view>
+
+      <view class="properties">
+        <view class="title">
+          <text>新品</text>
+        </view>
+        <view class="saleCount">总销量：10000</view>
+      </view>
+    </navigator>
+    <navigator class="position_relative" url="../product/detail">
+      <image class="photo" src="/images/12pm.jpg" />
+      <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
+      <view>
+        <view class="red">¥ 9699.00</view>
+        <view class="priceBlusBox">¥ 10099.00</view>
+      </view>
+
+      <view class="properties">
+        <view class="title">
+          <text>新品</text>
+        </view>
+        <view class="saleCount">总销量：10000</view>
+      </view>
+    </navigator>
+
+    <navigator class="position_relative" url="../product/detail">
+      <image class="photo" src="/images/12pm.jpg" />
+      <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
+      <view>
+        <view class="red">¥ 9699.00</view>
+        <view class="priceBlusBox">¥ 10099.00</view>
+      </view>
+
+      <view class="properties">
+        <view class="title">
+          <text>新品</text>
+        </view>
+        <view class="saleCount">总销量：10000</view>
+      </view>
+    </navigator>
+
+  </view>
+
+</view>
