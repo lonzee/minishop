@@ -24,6 +24,13 @@
         </navigator>
       </view>
 
+      <view class="brand">
+        <navigator url="../listdetail/listdetail">
+          <image src="" />
+          <text></text>
+        </navigator>
+      </view>
+
     </view>
   </scroll-view>
 </view>
