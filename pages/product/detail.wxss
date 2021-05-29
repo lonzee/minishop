@@ -96,6 +96,14 @@
   color: #939393;
 }
 
-.footbar{
-  
+.footbar {
+  background: red;
+  width: 100%;
+  font-size: 18px;
+  border-top: 1px solid #eee;
+  font-weight: 700;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
 }
