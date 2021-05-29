@@ -93,7 +93,8 @@
       <view class="common_head">热销商品推荐</view>
 
       <view class="webkit_float pad_no">
-        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/12pm.jpg" />
+        <image class="preview_img"
+          src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/12pm.jpg" />
         <view>
           <navigator url="../product/detail">
             <view class="overflow_width100">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>

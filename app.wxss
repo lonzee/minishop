@@ -5,7 +5,6 @@ page {
 
 .scan {
   position: absolute;
-
 }
 
 .scan button {
@@ -209,4 +208,24 @@ page {
   font-size: 30rpx;
   margin-top: 30rpx;
   background: #e82050;
+}
+
+.backgrounds_greenhold{
+  background: #62a160;
+}
+
+.backgrounds_orange{
+  background: #f85;
+}
+
+.backgrounds_red{
+  background: #dd2727;
+}
+
+.white{
+  color: #fff;
+}
+
+.floatleft {
+  float: left;
 }
