@@ -1,1 +1,24 @@
-/* pages/listdetail/listdetail.wxss */
+.box{
+  width: 46%;
+  padding: 10rpx;
+  border-bottom: 10rpx solid #ededed;
+  border-radius: 30rpx;
+  display: inline-block;
+  margin-left: 6rpx;
+}
+
+.box image{
+  width: 100%;
+}
+
+.title{
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-left: 10rpx;
+}
+
+.intro{
+  font-size: 26rpx;
+  margin-left: 10rpx;
+  color: gray;
+}

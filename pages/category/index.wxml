@@ -1,5 +1,6 @@
 <view>
   <scroll-view class="left" scroll-y="true">
+    <view>热门推荐</view>
     <view>大家电</view>
     <view>数码产品</view>
     <view>食品</view>
@@ -10,7 +11,7 @@
   <scroll-view class="right" scroll-y="true">
     <view class="typeTree">
       <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1500" style="margin-left:6%;">
-        <block  wx:for="{{background}}">
+        <block wx:for="{{background}}">
           <swiper-item>
             <image style="width: 100%" src="{{item}}" />
           </swiper-item>
@@ -18,17 +19,89 @@
       </swiper>
 
       <view class="brand">
-        <navigator url="../listdetail/listdetail">
-          <image src="" />
-          <text></text>
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Phone.png" />
+          <text>手机</text>
         </navigator>
       </view>
 
       <view class="brand">
-        <navigator url="../listdetail/listdetail">
-          <image src="" />
-          <text></text>
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Laptop.png" />
+          <text>笔记本</text>
         </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Air_conditioning.png" />
+          <text>空调</text>
+        </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Clothes.png" />
+          <text>服饰</text>
+        </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Books.png" />
+          <text>图书</text>
+        </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Paper_towel.png" />
+          <text>纸品</text>
+        </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Snacks.png" />
+          <text>零食</text>
+        </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Fresh.png" />
+          <text>生鲜</text>
+        </navigator>
+      </view>
+
+      <view class="brand">
+        <navigator class="item" url="../listdetail/listdetail">
+          <image
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Milk.png" />
+          <text>牛奶</text>
+        </navigator>
+      </view>
+
+      <view class="common_head">热销商品推荐</view>
+
+      <view class="webkit_float pad_no">
+        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/12pm.jpg" />
+        <view>
+          <navigator url="../product/detail">
+            <view class="overflow_width100">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
+          </navigator>
+          <view class="price_leading">单价：10099.00</view>
+          <view class="price_tip">优惠价：9699.00</view>
+          <navigator class="prin gray font_12 floatright marginright" url="../product/detail">查看详情</navigator>
+        </view>
       </view>
 
     </view>
