@@ -55,7 +55,7 @@
 
         <view class="floatleft">
           <image class="drawer_image"
-            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/12pm.jpg" />
+            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
         </view>
 
         <view class="tip_intro" style="font-size: 15px; color:red">

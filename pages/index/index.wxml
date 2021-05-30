@@ -26,7 +26,7 @@
 
   <view class="box_mod">
     <navigator class="position_relative" url="../product/detail">
-      <image class="photo" src="/images/12pm.jpg" />
+      <image class="photo" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
       <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
       <view>
         <view class="red">¥ 9699.00</view>
@@ -42,7 +42,7 @@
     </navigator>
 
     <navigator class="position_relative" url="../product/detail">
-      <image class="photo" src="/images/12pm.jpg" />
+      <image class="photo" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
       <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
       <view>
         <view class="red">¥ 9699.00</view>
@@ -57,7 +57,7 @@
       </view>
     </navigator>
     <navigator class="position_relative" url="../product/detail">
-      <image class="photo" src="/images/12pm.jpg" />
+      <image class="photo" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
       <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
       <view>
         <view class="red">¥ 9699.00</view>
@@ -73,7 +73,7 @@
     </navigator>
 
     <navigator class="position_relative" url="../product/detail">
-      <image class="photo" src="/images/12pm.jpg" />
+      <image class="photo" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
       <view class="title">Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机</view>
       <view>
         <view class="red">¥ 9699.00</view>
