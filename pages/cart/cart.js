@@ -33,6 +33,21 @@ Page({
                 "uid": "5"
             }
         ],
+        total: 0,
+    },
+
+    sum: function(e) {
+        var _carts = this.data.carts;
+        var _total = 0;
+        for (var i = 0; i < _carts.length; i++) {
+            if (_carts[i].selected) {
+                _total += _carts[i].num * _carts[i].price
+            }
+        }
+        // console.log(_total)
+        this.setData({
+            total: _total
+        })
     },
 
     bindCheckbox: function(e) {
@@ -44,13 +59,83 @@ Page({
         this.setData({
             carts: carts
         })
+        this.sum()
+    },
+
+    // 减号
+    bindMinus: function(e) {
+        var _index = parseInt(e.currentTarget.dataset.index);
+        var _num = this.data.carts[_index].num;
+        if (_num > 1) {
+            _num--;
+        }
+
+        this.data.carts[_index].num = _num
+
+        this.setData({
+            carts: this.data.carts
+        })
+
+        this.sum()
+    },
+
+    // 加号
+    bindPlus: function(e) {
+        var _index = parseInt(e.currentTarget.dataset.index);
+        var _num = this.data.carts[_index].num;
+        _num++
+
+        this.data.carts[_index].num = _num
+        this.setData({
+            carts: this.data.carts
+        })
+
+        this.sum()
+    },
+
+    removeShopCard: function(e) {
+        var _index = parseInt(e.currentTarget.dataset.index);
+
+        wx.showModal({
+            title: '确定删除',
+            content: '你真的要删除吗？',
+            success: (res) => {
+                if (res.confirm) {
+                    // console.log('移除之前', this.data.carts)
+                    this.data.carts.splice(_index, 1)
+                        // console.log('移除之后', this.data.carts)
+                    this.sum()
+                    this.setData({
+                        carts: this.data.carts
+                    })
+                } else {
+                    return false
+                }
+            }
+        })
+    },
+
+    bindSelectAll: function(e) {
+        var _selectedAllStatus = this.data.selectedAllStatus;
+        _selectedAllStatus = !_selectedAllStatus;
+
+        var _carts = this.data.carts;
+        for (var i = 0; i < _carts.length; i++) {
+            _carts[i].selected = _selectedAllStatus
+        }
+
+        this.setData({
+            selectedAllStatus: _selectedAllStatus,
+            carts: _carts
+        })
+        this.sum()
+
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function(options) {
-        console.log(this.data.carts)
         this.setData({
             carts: this.data.carts
         })

@@ -15,11 +15,11 @@
           </view>
         </view>
         <view class="title">
-          <text class="model-close">x</text>
+          <text class="model-close" bindtap="removeShopCard" data-index="{{index}}">X</text>
           <view class="stepper">
-            <text>-</text>
-            <input type="number" value="{{item.num}}" />
-            <text class="normal">+</text>
+            <text bindtap="bindMinus" data-index="{{index}}">-</text>
+            <input type="number" value="{{item.num}}" disabled />
+            <text class="normal" bindtap="bindPlus" data-index="{{index}}">+</text>
           </view>
         </view>
       </view>
@@ -103,9 +103,12 @@
   </view>
   <view class="carts-footer">
     <view>
-      <icon size="24" type="circle" />
-      <text>全选</text>
-      <text class="red">43433</text>
+      <view bindtap="bindSelectAll">
+        <icon wx:if="{{selectedAllStatus}}" size="24" type="success_circle" />
+        <icon wx:else size="24" type="circle" />
+        <text>全选</text>
+        <text class="red">{{total}}</text>
+      </view>
     </view>
     <view class="button">立即购买</view>
   </view>
