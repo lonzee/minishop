@@ -55,10 +55,43 @@
             <text class="preview_pricetip red">价格：12121212 购买数量：1212121</text>
         </view>
     </view>
-
     <view class="common_head">
-        <span class="colors33">地址信息确认 </span>
+        <span class="colors33">地址信息确认</span>
         <span class="floatright colors999">修改</span>
     </view>
-
+    <view class="position_serial font_14">
+        <view class="webkit_float">
+            <view>
+                <view>收货人: lonzee 手机：1888888888</view>
+                <view class="margin_top5">收货地址：GD_ZH</view>
+            </view>
+        </view>
+    </view>
+    <view class="common_head">我的可用优惠券</view>
+    <view class="coupon font_14">
+        <radio-group class="couponlist">
+            <label class="webkit_float common_head coupon">
+                <radio />
+                满100元减20元
+            </label>
+            <label class="webkit_float common_head coupon">
+                <radio />
+                满300元减30元
+            </label>
+            <label class="webkit_float common_head coupon">
+                <radio />
+                不使用优惠券
+            </label>
+        </radio-group>
+    </view>
+    <view class="position_serial">
+        <textarea class="remark" placeholder="请输入您的备注"></textarea>
+    </view>
+    <view class="paymethod textcenter">
+        您的总价为：
+        <span class="font_20 red">10000元</span>
+    </view>
+    <view class="position_serial">
+        <button type="primary">微信支付</button>
+    </view>
 </view>

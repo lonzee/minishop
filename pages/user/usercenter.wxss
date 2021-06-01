@@ -1,1 +1,84 @@
-/* pages/user/usercenter.wxss */
+.userdetail {
+    height: 210px;
+    background: #f5882e;
+}
+
+.user_container {
+    border: 1px solid #eee;
+    width: 80%;
+    position: absolute;
+    top: 65px;
+    left: 40px;
+    background: #fff;
+    z-index: 2;
+    border-radius: 22px;
+    height: 140px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.userdetail-avatar {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 20px;
+    top: -25px;
+}
+
+.marginleft_120 {
+    margin-left: 120px;
+}
+
+.coupon_box {
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 145px;
+    width: 50%;
+    z-index: 3;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.money_box {
+    border: 1px solid #eeeeee;
+    width: 80%;
+    position: absolute;
+    top: 169px;
+    left: 40px;
+    background: #121212;
+    border-radius: 20px;
+    height: 80px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.money_box .tip {
+    width: 80%;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.common_list {
+    padding: 3%;
+    border-bottom: 1px solid #ededed;
+}
+
+.icontip {
+    font-size: 14px;
+    color: #666;
+    padding: 4% 0;
+}
+
+.icontip image {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}

@@ -240,6 +240,11 @@ page {
     font-size: 14px;
 }
 
+.font_20 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .margin_top5 {
     margin-top: 5px;
 }
@@ -248,6 +253,14 @@ page {
     color: #333;
 }
 
+.textcenter {
+    text-align: center;
+}
+
 .width_100 {
     width: 100%;
+}
+
+.depers {
+    flex: 1;
 }

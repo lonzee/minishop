@@ -1,2 +1,124 @@
-<!--pages/user/usercenter.wxml-->
-<text>pages/user/usercenter.wxml</text>
+<view>
+    <view class="userdetail"></view>
+    <view class="user_container">
+        <image src="/images/user.jpg" class="userdetail-avatar floatleft" />
+        <text class="marginleft_120">admin</text>
+    </view>
+    <view class="coupon_box">
+        <view class="textcenter depers">
+            <navigator>
+                <view>
+                    <image src="/images/user_collection.png" style="width:25px; height:25px" />
+                </view>
+                <text>收藏</text>
+            </navigator>
+        </view>
+        <view class="textcenter depers">
+            <navigator>
+                <view>
+                    <image src="/images/user_collection.png" style="width:25px; height:25px" />
+                </view>
+                <text>收藏</text>
+            </navigator>
+        </view>
+        <view class="textcenter depers">
+            <navigator>
+                <view>
+                    <image src="/images/user_collection.png" style="width:25px; height:25px" />
+                </view>
+                <text>收藏</text>
+            </navigator>
+        </view>
+        <view class="textcenter depers">
+            <navigator>
+                <view>
+                    <image src="/images/user_collection.png" style="width:25px; height:25px" />
+                </view>
+                <text>收藏</text>
+            </navigator>
+        </view>
+    </view>
+    <navigator url="../mycoupon/mycoupon">
+        <view class="money_box">
+            <view class="tip">查看我的权益</view>
+        </view>
+    </navigator>
+    <view class="common_list" style="height:20px;background:#eee;"></view>
+    <view class="common_list">
+        <span class="font_14 colors33">我的订单</span>
+        <navigator class="floatright colors999 font_12" url="orderlist">查看全部</navigator>
+    </view>
+    <view class="icontip webkit_float textcenter">
+        <navigator class="depers">
+            <view>
+                <image src="/images/dfk.png" />
+            </view>
+            <text class="font_12">
+                待付款
+                <text class="red">(0)</text>
+            </text>
+        </navigator>
+        <navigator class="depers">
+            <view>
+                <image src="/images/dfh.png" />
+            </view>
+            <text class="font_12">
+                待发货
+                <text class="red">(2)</text>
+            </text>
+        </navigator>
+        <navigator class="depers">
+            <view>
+                <image src="/images/dsh.png" />
+            </view>
+            <text class="font_12">
+                待收货
+                <text class="red">(5)</text>
+            </text>
+        </navigator>
+        <navigator class="depers">
+            <view>
+                <image src="/images/dpj.png" />
+            </view>
+            <text class="font_12">
+                待评价
+                <text class="red">(7)</text>
+            </text>
+        </navigator>
+        <navigator class="depers">
+            <view>
+                <image src="/images/sh.png" />
+            </view>
+            <text class="font_12">
+                退款/售后
+                <text class="red">(8)</text>
+            </text>
+        </navigator>
+    </view>
+    <view>
+        <navigator>
+            <swiper autoplay="true" interval="2000" duration="1500">
+                <block wx:for="{{background}}">
+                    <swiper-item>
+                        <image src="{{item}}" style="width:100%;height:200px;" />
+                    </swiper-item>
+                </block>
+            </swiper>
+        </navigator>
+    </view>
+    <view class="common_head">
+        <navigator url="../address/user-address">
+            <span class="font_14 colors333">地址管理</span>
+        </navigator>
+    </view>
+    <view class="common_head">
+        <navigator url="../user/collection">
+            <span class="font_14 colors333">我的收藏</span>
+        </navigator>
+    </view>
+    <view class="common_head">
+        <navigator url="../couponlist/couponlist">
+            <span class="font_14 colors333">领劵中心</span>
+        </navigator>
+    </view>
+</view>
