@@ -1,1 +1,16 @@
-/* pages/order/pay.wxss */
+.item .preview_photo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.item .preview_photo image {
+    width: 60px;
+    height: 60px;
+}
+
+.preview_pricetip {
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+}

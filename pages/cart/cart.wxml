@@ -110,6 +110,8 @@
         <text class="red">{{total}}</text>
       </view>
     </view>
+    <navigator url="../order/pay">
     <view class="button">立即购买</view>
+    </navigator>
   </view>
 </view>

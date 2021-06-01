@@ -1,1 +1,51 @@
-/* pages/search/search.wxss */
+.box_mod {
+    padding: 3%;
+}
+
+.width_100 button {
+    text-align: center;
+    margin: 2%;
+    display: inline-table;
+    font-size: 14px;
+    background: #f5f5f5;
+    color: #636363;
+}
+
+.search_notfound {
+    width: 100%;
+    display: block;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+}
+
+.img_100100 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.search_product_list {
+    width: 45%;
+    float: left;
+    margin-bottom: 4%;
+}
+
+.search_product_list .pic {
+    width: 100%;
+    height: 350rpx;
+    overflow: hidden;
+}
+
+.search_product_list .title {
+    float: left;
+    width: 90%;
+    padding: 4%;
+}
+
+.price_tip {
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 30px;
+}
