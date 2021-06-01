@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/user/usercenter",
-          "pathName": "pages/user/usercenter",
+          "name": "pages/user/orderlist",
+          "pathName": "pages/user/orderlist",
           "query": "",
           "scene": null
         }

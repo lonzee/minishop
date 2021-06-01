@@ -12,8 +12,8 @@
 
     <view style="padding: 5%">
       <view>
-        <view class="red">￥ 9699.00</view>
-        <view class="priceBlusBox">￥ 10099.00</view>
+        <view class="red">¥ 9699.00</view>
+        <view class="priceBlusBox">¥ 10099.00</view>
       </view>
 
       <view class="properties">
@@ -68,7 +68,7 @@
       </view>
 
       <view style="font-size: 30rpx; color:red; margin-top:10px">
-        单价：￥ 9699.00
+        单价：¥ 9699.00
       </view>
 
       <view class="buy_box">

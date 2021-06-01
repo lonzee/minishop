@@ -1,1 +1,21 @@
-/* pages/user/history.wxss */
+.litle_box {
+    padding: 4%;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #f3f3f3;
+    border-radius: 20px;
+}
+
+.collect_img {
+    width: 265rpx;
+    height: 165rpx;
+    overflow: hidden;
+    border-radius: 4px;
+    float: left;
+    margin-right: 4%;
+}
+
+.collected {
+    color: #999;
+    font-size: 12px;
+    float: right;
+}

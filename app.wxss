@@ -264,3 +264,8 @@ page {
 .depers {
     flex: 1;
 }
+
+.reds {
+    background: #e82050;
+    color: #fff;
+}

@@ -16,9 +16,9 @@
         <view class="textcenter depers">
             <navigator>
                 <view>
-                    <image src="/images/user_collection.png" style="width:25px; height:25px" />
+                    <image src="/images/car.png" style="width:25px; height:25px" />
                 </view>
-                <text>收藏</text>
+                <text>购物车</text>
             </navigator>
         </view>
         <view class="textcenter depers">
@@ -26,15 +26,15 @@
                 <view>
                     <image src="/images/user_collection.png" style="width:25px; height:25px" />
                 </view>
-                <text>收藏</text>
+                <text>领券</text>
             </navigator>
         </view>
         <view class="textcenter depers">
-            <navigator>
+            <navigator url="history">
                 <view>
                     <image src="/images/user_collection.png" style="width:25px; height:25px" />
                 </view>
-                <text>收藏</text>
+                <text>足迹</text>
             </navigator>
         </view>
     </view>
@@ -108,17 +108,48 @@
     </view>
     <view class="common_head">
         <navigator url="../address/user-address">
-            <span class="font_14 colors333">地址管理</span>
+            <span class="font_14 colors33">地址管理</span>
         </navigator>
     </view>
     <view class="common_head">
         <navigator url="../user/collection">
-            <span class="font_14 colors333">我的收藏</span>
+            <span class="font_14 colors33">我的收藏</span>
         </navigator>
     </view>
     <view class="common_head">
         <navigator url="../couponlist/couponlist">
-            <span class="font_14 colors333">领劵中心</span>
+            <span class="font_14 colors33">领劵中心</span>
         </navigator>
+    </view>
+    <view class="common_head">热销商品推荐</view>
+    <view class="webkit_float pad_no">
+        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+        <view>
+            <navigator url="../product/detail">
+                <view class="overflow_width100">
+                    Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机
+                </view>
+            </navigator>
+            <view class="price_leading">单价：10099.00</view>
+            <view class="price_tip">优惠价：9699.00</view>
+            <navigator class="prin gray font_12 floatright marginright" url="../product/detail">
+                查看详情
+            </navigator>
+        </view>
+    </view>
+    <view class="webkit_float pad_no">
+        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+        <view>
+            <navigator url="../product/detail">
+                <view class="overflow_width100">
+                    Apple iPhone 12 Pro Max (A2412) 256GB 海蓝色 支持移动联通电信5G 双卡双待手机
+                </view>
+            </navigator>
+            <view class="price_leading">单价：10099.00</view>
+            <view class="price_tip">优惠价：9699.00</view>
+            <navigator class="prin gray font_12 floatright marginright" url="../product/detail">
+                查看详情
+            </navigator>
+        </view>
     </view>
 </view>
