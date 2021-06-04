@@ -269,3 +269,25 @@ page {
     background: #e82050;
     color: #fff;
 }
+
+.swiper-tab {
+    width: 100%;
+    border-bottom: 1rpx solid #ededed;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    line-height: 45px;
+}
+
+.swiper-tab-list {
+    font-size: 12px;
+    display: inline-block;
+    width: 20%;
+    color: #666;
+}
+
+.swiper-tab .on {
+    color: #dd2727;
+    border-bottom: 3rpx solid #dd2727;
+}
