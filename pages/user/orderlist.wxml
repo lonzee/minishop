@@ -9,7 +9,7 @@
 
     <view class="order_top" ></view>
 
-    <swiper class="swiper-box" duration="300" style="margin:10px" bindchange="bindChange">
+    <swiper class="swiper-box" duration="300" style="margin:10px; height: 1000px" bindchange="bindChange" current="{{currentTab}}">
         <swiper-item >
             <view class="webkit_float pad_no">
                 <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" class="preview_img" />
