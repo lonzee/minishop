@@ -96,6 +96,14 @@
   color: #939393;
 }
 
+.buy_step input {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  font-weight: 900;
+  color: #939393;
+}
+
 .footbar {
   background: red;
   width: 100%;
@@ -106,4 +114,12 @@
   height: 40px;
   line-height: 40px;
   color: #fff;
+}
+
+.isRuleShow {
+  display: block;
+}
+
+.isRuleHide {
+  display: none;
 }

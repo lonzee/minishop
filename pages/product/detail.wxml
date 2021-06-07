@@ -41,21 +41,20 @@
   <view class="foot_fixed">
     <view class="floatleft backgrounds_greenhold widper white">收藏</view>
     <view class="floatleft backgrounds_orange widper white">加入购物车</view>
-    <view class="floatleft backgrounds_red widper white">立即购买</view>
+    <view class="floatleft backgrounds_red widper white" bindtap="showRule">立即购买</view>
   </view>
 
   <!-- 点击立即购买灰色背景 -->
-  <view class="drawer_screen">
+  <view class="drawer_screen {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
   </view>
 
   <!-- 点击立即购买弹窗 -->
-  <view class="drawer_attr_box">
+  <view class="drawer_attr_box {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
     <view style="padding: 10px;">
       <view class="common_head" style="padding-bottom: 30px;">
 
         <view class="floatleft">
-          <image class="drawer_image"
-            src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+          <image class="drawer_image" src="http://182.42.107.160:3000/images/iP12pm/12pm.jpg" />
         </view>
 
         <view class="tip_intro" style="font-size: 15px; color:red">
@@ -75,12 +74,14 @@
         <text>购买数量</text>
         <view class="buy_num">
           <view class="buy_step">
-            <text>-</text>1<text>+</text>
+            <text bindtap="bindMinus">-</text>
+            <input type="number" value="{{num}}" disabled />
+            <text bindtap="bindPlus">+</text>
           </view>
         </view>
       </view>
 
-      <view class="footbar">立即购买</view>
+      <view class="footbar" bindtap="goToOrderPage">立即购买</view>
 
     </view>
   </view>

@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        background: ['/images/ad1.jpg', '/images/ad2.jpg', '/images/ad3.jpg', '/images/ad4.jpg'],
+        background: ['http://182.42.107.160:3000/images/ad/ad1.jpg', 'http://182.42.107.160:3000/images/ad/ad2.jpg', 'http://182.42.107.160:3000/images/ad/ad3.jpg', 'http://182.42.107.160:3000/images/ad/ad4.jpg'],
     },
 
     /**

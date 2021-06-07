@@ -5,7 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
+    longitude: 113.352714,
+    latitude: 22.125424,
+    markers: [
+      {
+        iconPath: '/images/navi.png',
+        id: 0,
+        latitude: 22.125424,
+        longitude: 113.352714,
+        width: 50,
+        height: 50
+      }
+    ]
+  },
 
+  markertap: function(){
+    wx.openLocation({
+      latitude: this.data.latitude,
+      longitude: this.data.longitude,
+      name: '广科教学楼-3',
+      address: '广东省珠海市金湾区湖滨路'
+    })
   },
 
   /**

@@ -107,7 +107,7 @@
         </navigator>
     </view>
     <view class="common_head">
-        <navigator url="../address/user-address">
+        <navigator url="../address/address">
             <span class="font_14 colors33">地址管理</span>
         </navigator>
     </view>
@@ -123,7 +123,7 @@
     </view>
     <view class="common_head">热销商品推荐</view>
     <view class="webkit_float pad_no">
-        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+        <image class="preview_img" src="http://182.42.107.160:3000/images/iP12pm/12pm.jpg" />
         <view>
             <navigator url="../product/detail">
                 <view class="overflow_width100">
@@ -138,7 +138,7 @@
         </view>
     </view>
     <view class="webkit_float pad_no">
-        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+        <image class="preview_img" src="http://182.42.107.160:3000/images/iP12pm/12pm.jpg" />
         <view>
             <navigator url="../product/detail">
                 <view class="overflow_width100">

@@ -18,61 +18,61 @@
       </swiper>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Phone.png" />
+          <image src="http://182.42.107.160:3000/images/category/Phone.png" />
           <text>手机</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Laptop.png" />
+          <image src="http://182.42.107.160:3000/images/category/Laptop.png" />
           <text>笔记本</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Air_conditioning.png" />
+          <image src="http://182.42.107.160:3000/images/category/Air_conditioning.png" />
           <text>空调</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Clothes.png" />
+          <image src="http://182.42.107.160:3000/images/category/Clothes.png" />
           <text>服饰</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Books.png" />
+          <image src="http://182.42.107.160:3000/images/category/Books.png" />
           <text>图书</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Paper_towel.png" />
+          <image src="http://182.42.107.160:3000/images/category/Paper_towel.png" />
           <text>纸品</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Snacks.png" />
+          <image src="http://182.42.107.160:3000/images/category/Snacks.png" />
           <text>零食</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Fresh.png" />
+          <image src="http://182.42.107.160:3000/images/category/Fresh.png" />
           <text>生鲜</text>
         </navigator>
       </view>
       <view class="brand">
         <navigator class="item" url="../listdetail/listdetail">
-          <image src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/category_images/Milk.png" />
+          <image src="http://182.42.107.160:3000/images/category/Milk.png" />
           <text>牛奶</text>
         </navigator>
       </view>
       <view class="common_head">热销商品推荐</view>
       <view class="webkit_float pad_no">
-        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+        <image class="preview_img" src="http://182.42.107.160:3000/images/iP12pm/12pm.jpg" />
         <view>
           <navigator url="../product/detail">
             <view class="overflow_width100">
@@ -87,7 +87,7 @@
         </view>
       </view>
       <view class="webkit_float pad_no">
-        <image class="preview_img" src="cloud://cloud-test-0govni141f2dc556.636c-cloud-test-0govni141f2dc556-1305944833/images/product_images/iP12pm/12pm.jpg" />
+        <image class="preview_img" src="http://182.42.107.160:3000/images/iP12pm/12pm.jpg" />
         <view>
           <navigator url="../product/detail">
             <view class="overflow_width100">

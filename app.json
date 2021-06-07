@@ -13,7 +13,6 @@
     "pages/cart/cart",
     "pages/listdetail/listdetail",
     "pages/address/address",
-    "pages/address/user-address",
     "pages/category/index",
     "pages/couponlist/couponlist",
     "pages/mycoupon/mycoupon"
@@ -56,6 +55,7 @@
       }
     ]
   },
+  "requiredBackgroundModes": ["audio"],
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

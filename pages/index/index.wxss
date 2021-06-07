@@ -1,3 +1,17 @@
+/* 播放按钮 */
+.player {
+  position: fixed;
+  top: 500rpx;
+  right: 10rpx;
+  /* 提高堆叠顺序 */
+  z-index: 1;
+}
+
+.player>image:first-child {
+  width: 70rpx;
+  height: 70rpx;
+}
+
 .slide_image{
   width: 100%;
   height: 150px;

@@ -5,7 +5,30 @@ Page({
    */
   data: {
     resCode: '',
-    background: ['/images/ad1.jpg', '/images/ad2.jpg', '/images/ad3.jpg', '/images/ad4.jpg'],
+    isPlayingMusic: false,
+    bgm: null,
+    music_url: 'http://182.42.107.160:3000/public/music/Reality.flac',
+    background: ['http://182.42.107.160:3000/images/ad/ad1.jpg',
+    'http://182.42.107.160:3000/images/ad/ad2.jpg',
+    'http://182.42.107.160:3000/images/ad/ad3.jpg',
+    'http://182.42.107.160:3000/images/ad/ad4.jpg'],
+  },
+
+  play: function () {
+    if (this.data.isPlayingMusic){
+      this.bgm.pause()
+    } else{
+      this.bgm.play()
+    }
+    this.setData({
+      isPlayingMusic: !this.data.isPlayingMusic
+    })
+  },
+
+  goToSearch:function(){
+    wx.navigateTo({
+      url: '../search/search?value=' + this.data.resCode,
+    })
   },
 
   scanCode: function(){
@@ -28,7 +51,12 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+    this.bgm = wx.getBackgroundAudioManager()
+    this.bgm.title = 'Reality'
+    this.bgm.epname = 'Reality'
+    this.bgm.singer = 'Lost Frequencies/Janieck Devy'
+    this.bgm.src = this.data.music_url
+    this.bgm.play()
   },
 
   /**
